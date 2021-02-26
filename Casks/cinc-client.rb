@@ -1,8 +1,8 @@
 cask "cinc-client" do
   version "16.10.17"
-  sha256 "60d1139fc438272f370b2fe323b5cd1420645a5b3f927eecfbc826dc79897431"
+  sha256 "b41b31098eaefdefc0bcdd26f6c7da1b1d9314c2cf0b9a68ef23895c67bcb76c"
 
-  url "http://downloads.cinc.sh/files/stable/cinc/#{version}/mac_os_x/10.14/cinc-#{version}-1.dmg"
+  url "http://downloads.cinc.sh/files/stable/cinc/#{version}/mac_os_x/10.14/cinc-#{version}-1.x86_64.dmg"
   appcast ""
   name "CINC Auditor"
   homepage "https://cinc.sh/start/client/"
