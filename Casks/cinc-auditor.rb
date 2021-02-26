@@ -5,7 +5,7 @@ cask "cinc-auditor" do
   url "http://downloads.cinc.sh/files/stable/cinc-auditor/#{version}/mac_os_x/10.14/cinc-auditor-#{version}-1.x86_64.dmg"
   appcast ""
   name "CINC Auditor"
-  desc "CINC Auditor - Community version of Chef Inspec."
+  desc "Community version of Chef Inspec"
   homepage "https://cinc.sh/start/auditor/"
 
   depends_on macos: ">= :high_sierra"
@@ -14,8 +14,8 @@ cask "cinc-auditor" do
 
   uninstall_postflight do
     system_command "/usr/bin/find",
-      args: ["/usr/local/bin", "-lname", "/opt/cinc-auditor/*", "-delete"],
-      sudo: true
+                   args: ["/usr/local/bin", "-lname", "/opt/cinc-auditor/*", "-delete"],
+                   sudo: true
   end
 
   uninstall pkgutil: "com.cinc-project.pkg.cinc-auditor",

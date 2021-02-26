@@ -5,7 +5,7 @@ cask "cinc-workstation" do
   url "http://downloads.cinc.sh/files/unstable/cinc-workstation/#{version}/mac_os_x/10.14/cinc-workstation-#{version}-1.x86_64.dmg"
   appcast ""
   name "CINC Workstation"
-  desc "CINC Workstation - Community version of Chef Workstation."
+  desc "Community version of Chef Workstation"
   homepage "https://cinc.sh/start/workstation/"
 
   depends_on macos: ">= :high_sierra"
@@ -14,8 +14,8 @@ cask "cinc-workstation" do
 
   uninstall_postflight do
     system_command "/usr/bin/find",
-      args: ["/usr/local/bin", "-lname", "/opt/cinc-workstation/*", "-delete"],
-      sudo: true
+                   args: ["/usr/local/bin", "-lname", "/opt/cinc-workstation/*", "-delete"],
+                   sudo: true
   end
 
   uninstall pkgutil: "com.cinc-project.pkg.cinc-workstation",

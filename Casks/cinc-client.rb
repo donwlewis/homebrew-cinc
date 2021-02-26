@@ -5,7 +5,7 @@ cask "cinc-client" do
   url "http://downloads.cinc.sh/files/stable/cinc/#{version}/mac_os_x/10.14/cinc-#{version}-1.x86_64.dmg"
   appcast ""
   name "CINC Client"
-  desc "CINC Client - Community version of Chef Inspec."
+  desc "Community version of Chef Inspec"
   homepage "https://cinc.sh/start/client/"
 
   depends_on macos: ">= :high_sierra"
@@ -14,8 +14,8 @@ cask "cinc-client" do
 
   uninstall_postflight do
     system_command "/usr/bin/find",
-      args: ["/usr/local/bin", "-lname", "/opt/cinc/*", "-delete"],
-      sudo: true
+                   args: ["/usr/local/bin", "-lname", "/opt/cinc/*", "-delete"],
+                   sudo: true
   end
 
   uninstall pkgutil: "com.cinc-project.pkg.cinc",
