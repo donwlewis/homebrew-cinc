@@ -1,5 +1,5 @@
 cask "cinc-auditor" do
-  version "4.26.4"
+  version "4.26.13"
   sha256 "5682c503931141a14e7b7922d1ce7308d1934b48f5795323ab7ec2e89280a358"
 
   url "http://downloads.cinc.sh/files/stable/cinc-auditor/#{version}/mac_os_x/10.14/cinc-auditor-#{version}-1.dmg"
