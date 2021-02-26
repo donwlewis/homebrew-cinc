@@ -3,14 +3,14 @@ cask "cinc-workstation" do
   sha256 "0cb354af1848588a682d262e4cde694c03cabb98839d0fe7ba96a42a945b70f3"
   arch "x86_64"
 
-  url "http://downloads.cinc.sh/files/unstable/cinc-workstation/#{version}/mac_os_x/10.14/cinc-workstation-#{version}-1.#{arch}.dmg"
+  url "http://downloads.cinc.sh/files/unstable/cinc-workstation/#{version}/mac_os_x/10.14/cinc-workstation-#{version}-1.x86_64.dmg"
   appcast ""
   name "CINC Workstation"
   homepage "https://cinc.sh/start/workstation/"
 
   depends_on macos: ">= :high_sierra"
 
-  pkg "cinc-workstation-#{version}-1.#{arch}.pkg"
+  pkg "cinc-workstation-#{version}-1.x86_64.pkg"
 
   uninstall_postflight do
     system_command "/usr/bin/find",
