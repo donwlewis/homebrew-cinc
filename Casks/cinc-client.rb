@@ -1,6 +1,6 @@
 cask "cinc-client" do
-  version "17.0.242"
-  sha256 "b42210546796d0e8866a7e2eb4b3aefbedac37789dd64dea577d1c6d0fb8265a"
+  version "17.1.35"
+  sha256 "12c5170603c5067e3a48eb13578e76ff2dc67d5e523a71f2ded3dee0a254fbbf"
 
   url "http://downloads.cinc.sh/files/stable/cinc/#{version}/mac_os_x/10.14/cinc-#{version}-1.x86_64.dmg"
   appcast ""

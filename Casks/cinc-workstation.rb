@@ -1,6 +1,6 @@
 cask "cinc-workstation" do
-  version "21.5.420"
-  sha256 "0928403ffb67eb4426ac9922d78cf92eb76a5020ebc979529f3ec4d90fbc1ef3"
+  version "21.6.467"
+  sha256 "31400af083b21b9258994212db09ed508f8435fa8f117237512fd7397defe537"
 
   url "http://downloads.cinc.sh/files/unstable/cinc-workstation/#{version}/mac_os_x/10.14/cinc-workstation-#{version}-1.x86_64.dmg"
   appcast ""
