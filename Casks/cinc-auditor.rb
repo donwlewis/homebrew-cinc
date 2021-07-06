@@ -1,6 +1,6 @@
 cask "cinc-auditor" do
-  version "4.37.23"
-  sha256 "9cb4a2b2b2a890738d34a19732fd77ddaaaf9a320ba35faeff17b7709a930627"
+  version "4.38.3"
+  sha256 "d0a6a13fcc4241ce885e0ec355bdd5e3ba54e49fc58cb812bb955f57f70faaf8"
 
   url "http://downloads.cinc.sh/files/stable/cinc-auditor/#{version}/mac_os_x/10.14/cinc-auditor-#{version}-1.x86_64.dmg"
   appcast ""
